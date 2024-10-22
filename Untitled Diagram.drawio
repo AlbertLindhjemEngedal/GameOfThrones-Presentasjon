@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
+  <diagram name="Page-1" id="bAW9ZoD-qUe8P30ICWJ8">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Daenerys Targaryen" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="8" y="81" width="169" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Jon Snow" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="286" y="167" width="98" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Tyrion Lannister" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="717" y="11" width="146" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Sansa Stark" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="492" y="81" width="112" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Arya Stark" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="737" y="167" width="105" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Bronn" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="976" y="97" width="71" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Varys" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="1155" y="81" width="68" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Inherits" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=1.01;entryX=0;entryY=0.5;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="232" y="191" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Inherits" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="232" y="35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Allies" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="437" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Allies" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.35;entryX=0;entryY=0.37;" edge="1" parent="1" source="3" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="437" y="176" />
+              <mxPoint x="660" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Allies" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.73;entryX=0.03;entryY=-0.01;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="54" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Allies" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.31;entryX=0.13;entryY=0;" edge="1" parent="1" source="4" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="19" />
+              <mxPoint x="1101" y="19" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Enemies" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=1.01;entryX=0;entryY=0.67;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="211" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Enemies" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.37;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Enemies" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.06;entryY=1;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="191" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Betrays" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.5;entryX=0;entryY=0.63;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1101" y="121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Betrays" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1.01;entryX=0.86;entryY=1.01;" edge="1" parent="1" source="8" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1101" y="262" />
+              <mxPoint x="437" y="262" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
