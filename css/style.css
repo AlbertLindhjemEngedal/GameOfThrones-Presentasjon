@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Trajan Pro';
+    src: url("../fonts/Game of Thrones.ttf") format('truetype'); /* Path to your font file */
+}
+
+
+
+#got {
+    font-family: "Trajan Pro";
+}|
