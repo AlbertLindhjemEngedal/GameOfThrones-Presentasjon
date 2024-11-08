@@ -1,15 +1,19 @@
 #top_header {
-  height: 2000px;
+  height: 1400px;
   margin: 0;
-  overflow-y: scroll;
   position: relative;
+  overflow: hidden;
+}
+
+#title_div {
+  margin-top: 80px;
 }
 
 #main_title {
   text-align: center;
   width: 100%;
   font-size: 90px;
-  font-family: "Trajan Pro";
+  font-family: "GOT Font";
   color: white;
   /* opacity: 0; */
   position: fixed;
@@ -21,7 +25,7 @@
 }
 
 #small_text {
-    font-family: "Trajan Pro";
+  font-family: "GOT Font";
 
   color: white;
   position: fixed;
@@ -34,4 +38,8 @@
   position: fixed;
   bottom: 0;
   left: 30%;
+  z-index: -10;
+
+  padding: 0px;
+  margin: 0px;
 }

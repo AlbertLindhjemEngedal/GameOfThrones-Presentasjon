@@ -1,10 +1,22 @@
 @font-face {
-    font-family: 'Trajan Pro';
-    src: url("../fonts/Game of Thrones.ttf") format('truetype'); /* Path to your font file */
+  font-family: "GOT Font";
+  src: url("../fonts/Game of Thrones.ttf") format("truetype"); /* Path to your font file */
 }
 
+@font-face {
+  font-family: "Trajan Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Trajan Pro Regular"), url("../fonts/TrajanPro-Regular.woff") format("woff");
+}
 
+@font-face {
+  font-family: "Trajan Pro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Trajan Pro Bold"), url("../fonts/TrajanPro-Bold.woff") format("woff");
+}
 
 #got {
-    font-family: "Trajan Pro";
+  font-family: "Trajan Pro";
 }

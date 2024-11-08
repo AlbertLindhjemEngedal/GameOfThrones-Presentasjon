@@ -3,11 +3,26 @@ body {
   margin: 0;
 }
 
+.fill {
+  background-color: black;
+  background-image: url(../img/wood2.jpg);
+  background-size: contain;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.separator {
+  background-image: url(../img/ice.jpg);
+  height: 5vh;
+  width: 100%;
+}
 
 .main_menu {
-  height: 100vh;
-  background-color: white;
-
   display: grid;
   height: 80vh;
 
@@ -26,27 +41,37 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  filter: blur(5px);
+  filter: blur(8px);
   z-index: 0;
   transition: filter 0.3s ease;
+  padding: 0;
 }
-
 
 .menu_slice {
   position: relative;
   overflow: hidden;
-  
+
   text-decoration: none;
-  /* z-index: 1; */
+
+  border-radius: 15px;
+  margin: 20px;
+
+  -webkit-box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1);
+  box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1);
 }
 
 .menu_slice:hover .blur_container {
   filter: blur(0px);
 }
-
+.menu_slice:hover .slice_title {
+  color: #b9e8f1;
+}
 
 .slice_title {
-  font-size: 60px;
+  font-size: 45px;
+  font-family: "Trajan Pro Bold";
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +79,7 @@ body {
 
   z-index: 2;
   filter: none;
-  
+
   position: relative;
 }
 
@@ -66,7 +91,6 @@ body {
   background-size: cover;
 }
 
-
 #episodes {
   grid-area: e;
 }
@@ -74,7 +98,6 @@ body {
   background-image: url(../img/episodes.jpg);
   background-size: cover;
 }
-
 
 #locations {
   grid-area: l;
@@ -84,13 +107,18 @@ body {
   background-size: cover;
 }
 
-
-#what {
-  background-color: aqua;
+#houses {
   grid-area: w;
+}
+
+#houses .blur_container {
+  background-image: url(../img/houses.jpg);
+  background-size: cover;
 }
 
 #more {
   height: 70vh;
   background-color: blanchedalmond;
+  background-image: url(../img/wood.jpg);
+  background-size: cover;
 }
