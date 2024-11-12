@@ -5,15 +5,19 @@ body {
 
 :root {
   --side-margins: 60px;
+  --container-pos: 150px
 }
-
+/* 
 #container {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: black;
-  border-radius: 20px;
+  /* background-color: black; */
+/* background-image: url(../img/patterns/snow.avif); */
+/* background-size: cover; */
+/* /* border-radius: 20px; */
+/* border: solid red 1px;
 
   height: 70vh;
 
@@ -24,11 +28,10 @@ body {
   margin-right: var(--side-margins);
 
   padding: 40px;
-}
+} */
 
-.content {
-  display: flex;
-  justify-content: center;
+.item {
+
 
   position: relative;
   width: 100%;
@@ -38,13 +41,17 @@ body {
 }
 
 .character-name {
-  color: white;
-
-  font-size: 80px;
-  margin: 0;
+  grid-area: t;
+  /* color: white; */
+  color: black;
+  font-size: 60px;
+  font-family: "GOT Font";
+  margin: auto;
+  /* margin-top: ; */
 }
 
-.content img {
+.character-img {
+  grid-area: i;
   position: absolute;
   left: 0;
 
@@ -52,20 +59,97 @@ body {
 }
 
 .character-info {
-  /* border: solid 1px white; */
-
-  width: 50%;
-  height: 65%;
-  /* margin-top: 100px; */
-  margin-right: 30px;
-  margin-bottom: 30px;
+  grid-area: b;
   position: absolute;
   right: 0;
-  bottom: 0;
-  color: white;
-}
-/* 
-.character-sigil {
+  /* margin-left: 15px; */
+  margin-right: 35px;
   
+  
+  color: black;
+  font-size: 20px;
 
-} */
+
+}
+
+.character-sigil {
+  grid-area: s;
+  height: 100px;
+
+  margin: auto;
+}
+*/ body {
+  background-image: url(../img/pattern.jpg);
+  /* background-image: linear-gradient(to top right, #8b5cf6, #ec4899); */
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+.slider {
+
+  border: solid red 1px;
+
+  height: 88vh;
+
+
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.item {
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  grid-template-areas:
+    "i i i t t s"
+    "i i i b b b"
+    "i i i b b b";
+
+  position: absolute;
+  right: var(--container-pos);
+  left: var(--container-pos);
+  top: 90px;
+
+
+  z-index: 4;
+  height: 70vh;
+  width: 1200px;
+  text-align: justify;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+
+
+
+}
+
+#next,
+#prev {
+  z-index: 5;
+  position: absolute;
+  top: 40%;
+  color: blue;
+  background-color: transparent;
+  border: none;
+  font-size: xxx-large;
+  font-family: monospace;
+  font-weight: bold;
+  left: 100px;
+}
+
+#next {
+  left: unset;
+  right: 100px;
+}
+
+
+#Jon-Snow {
+  background-image: url(../img/patterns/snow-highres.jpg);
+  background-size: cover;
+}

@@ -1,4 +1,4 @@
-const scrollThreshold = 1150;
+const scrollThreshold = 650;
 
 const throneImage = document.getElementById("throne");
 const bottomDiv = document.querySelector("main_menu");
