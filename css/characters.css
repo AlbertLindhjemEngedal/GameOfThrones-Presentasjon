@@ -1,43 +1,29 @@
 body {
   margin: 0;
-  background-image: url(../img/pattern.jpg);
+  background-image: url(../img/background/dark-smoke.avif);
+  background-size: cover;
 }
 
 :root {
   --side-margins: 60px;
-  --container-pos: 150px
+  --container-pos: 150px;
 }
-/* 
-#container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* background-color: black; */
-/* background-image: url(../img/patterns/snow.avif); */
-/* background-size: cover; */
-/* /* border-radius: 20px; */
-/* border: solid red 1px;
-
-  height: 70vh;
-
-  margin-top: 70px;
-  margin-bottom: 50px;
-
-  margin-left: var(--side-margins);
-  margin-right: var(--side-margins);
-
-  padding: 40px;
-} */
 
 .item {
-
-
   position: relative;
   width: 100%;
   height: 100%;
+}
 
-  /* border: solid 1px white; */
+.menu_button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.menu_button img {
+  height: 50px;
 }
 
 .character-name {
@@ -54,6 +40,7 @@ body {
   grid-area: i;
   position: absolute;
   left: 0;
+  margin-bottom: 0;
 
   height: 500px;
 }
@@ -62,14 +49,13 @@ body {
   grid-area: b;
   position: absolute;
   right: 0;
-  /* margin-left: 15px; */
+
+  margin-top: 20px;
   margin-right: 35px;
-  
-  
+
   color: black;
-  font-size: 20px;
-
-
+  font-size: 18px;
+  font-family: "Trajan Pro Regular";
 }
 
 .character-sigil {
@@ -89,18 +75,15 @@ body {
   font-family: monospace;
 }
 .slider {
-
-  border: solid red 1px;
+  /* border: solid red 1px; */
 
   height: 88vh;
-
 
   padding: 40px;
   position: relative;
   overflow: hidden;
 }
 .item {
-
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -115,7 +98,6 @@ body {
   left: var(--container-pos);
   top: 90px;
 
-
   z-index: 4;
   height: 70vh;
   width: 1200px;
@@ -124,32 +106,106 @@ body {
   border-radius: 10px;
   padding: 20px;
   transition: 0.5s;
-
-
-
 }
 
 #next,
 #prev {
   z-index: 5;
   position: absolute;
-  top: 40%;
-  color: blue;
+  top: 45%;
+  color: white;
   background-color: transparent;
   border: none;
   font-size: xxx-large;
   font-family: monospace;
   font-weight: bold;
-  left: 100px;
+  left: 80px;
 }
 
 #next {
   left: unset;
-  right: 100px;
+  right: 80px;
 }
-
 
 #Jon-Snow {
   background-image: url(../img/patterns/snow-highres.jpg);
   background-size: cover;
+}
+
+#Jon-Snow .character-info {
+  margin-top: 0px;
+}
+
+#Jamie-Lannister {
+  background-image: url(../img/patterns/lannister.jpg);
+  /* background-size: cover; */
+}
+
+#Jamie-Lannister {
+  background-image: url(../img/patterns/lannister.jpg);
+  /* background-size: cover; */
+  grid-template-areas:
+    "i i t t t s"
+    "i i b b b b"
+    "i i b b b b";
+}
+
+#Jamie-Lannister > * {
+  color: white;
+}
+#Jamie-Lannister .character-sigil {
+  height: 120px;
+}
+
+#Jamie-Lannister .character-img {
+  margin-left: 20px;
+}
+
+#Danny {
+  background-image: url(../img/background/ash.jpg);
+  background-size: cover;
+  grid-template-areas:
+    "i i t t t s"
+    "i i b b b b"
+    "i i b b b b";
+}
+
+#Danny .character-sigil {
+  margin-right: 0px;
+  height: 120px;
+}
+
+#Tyrion-Lannister {
+  background-image: url(../img/patterns/lannister-beige.avif);
+
+  grid-template-areas:
+    "i i t t t s"
+    "i i b b b b"
+    "i i b b b b";
+  /* background-size: cover; */
+}
+#Tyrion-Lannister .character-sigil {
+  height: 120px;
+}
+
+#Tyrion-Lannister .character-img {
+  margin-left: 55px;
+  /* margin-right: 50px; */
+}
+
+#Arya-Stark {
+  background-image: url(../img/patterns/pattern.jpg);
+
+}
+#Arya-Stark .character-name {
+  color: beige;
+  font-size: 50px;
+}
+#Arya-Stark .character-info {
+  color: beige;
+  /* font-size: 50px; */
+}
+
+#Arya-Stark .character-img {
+  margin-left: 40px;
 }
