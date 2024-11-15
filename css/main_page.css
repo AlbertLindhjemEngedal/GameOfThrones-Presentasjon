@@ -1,11 +1,17 @@
 body {
   background-color: black;
   margin: 0;
+  scrollbar-color: pink lightblue;
 }
+
+/* 
+div.scroller {
+  
+}  */
 
 .fill {
   background-color: black;
-  background-image: url(../img/wood2.jpg);
+  background-image: url(../img/patterns/wood2.jpg);
   background-size: contain;
 
   padding-top: 10px;
@@ -17,7 +23,7 @@ body {
 }
 
 .separator {
-  background-image: url(../img/ice.jpg);
+  background-image: url(../img/patterns/ice.jpg);
   height: 5vh;
   width: 100%;
 }
@@ -87,7 +93,7 @@ body {
   grid-area: c;
 }
 #characters .blur_container {
-  background-image: url(../img/characters_cinematic-cropped.jpg);
+  background-image: url(../img/menu/characters_cinematic-cropped.jpg);
   background-size: cover;
 }
 
@@ -95,7 +101,7 @@ body {
   grid-area: e;
 }
 #episodes .blur_container {
-  background-image: url(../img/episodes.jpg);
+  background-image: url(../img/menu/episodes.jpg);
   background-size: cover;
 }
 
@@ -103,7 +109,7 @@ body {
   grid-area: l;
 }
 #locations .blur_container {
-  background-image: url(../img/map.jpg);
+  background-image: url(../img/menu/map.jpg);
   background-size: cover;
 }
 
@@ -112,7 +118,7 @@ body {
 }
 
 #houses .blur_container {
-  background-image: url(../img/houses.jpg);
+  background-image: url(../img/menu/houses.jpg);
   background-size: cover;
 }
 
