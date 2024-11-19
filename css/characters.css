@@ -16,14 +16,22 @@ body {
 }
 
 .menu_button {
+  background-image: url(../img/buttons/menu.png);
+  background-size: contain;
+
   position: absolute;
   top: 0;
   left: 0;
   margin-top: 20px;
   margin-left: 20px;
-}
-.menu_button img {
+  z-index: 5;
+
   height: 50px;
+  width: 50px;
+}
+
+.menu_button:hover {
+  background-image: url(../img/buttons/menu_hover.png);
 }
 
 .character-name {
@@ -55,7 +63,7 @@ body {
 
   color: black;
   font-size: 18px;
-  font-family: "Trajan Pro Regular";
+  font-family: "Trajan Pro Bold";
 }
 
 .character-sigil {
@@ -141,15 +149,11 @@ body {
 }
 
 #Jamie-Lannister {
-  background-image: url(../img/patterns/lannister.jpg);
-  -webkit-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
-  -moz-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
-  box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
-}
-
-#Jamie-Lannister {
-  background-image: url(../img/patterns/lannister.jpg);
-  /* background-size: cover; */
+  background-image: url(../img/patterns/red.webp);
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(200, 49, 43, 1);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(200, 49, 43, 1);
+  box-shadow: 0px 0px 24px 0px rgba(200, 49, 43, 1);
   grid-template-areas:
     "i i t t t s"
     "i i b b b b"
@@ -186,8 +190,12 @@ body {
 }
 
 #Tyrion-Lannister {
-  background-image: url(../img/patterns/lannister-beige.avif);
+  background-image: url(../img/patterns/board.avif);
+  background-size: cover;
 
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
   grid-template-areas:
     "i i t t t s"
     "i i b b b b"
@@ -201,6 +209,13 @@ body {
 #Tyrion-Lannister .character-img {
   margin-left: 55px;
   /* margin-right: 50px; */
+}
+
+#Tyrion-Lannister .character-info {
+  color: white;
+}
+#Tyrion-Lannister .character-name {
+  color: white;
 }
 
 #Arya-Stark {
@@ -220,4 +235,35 @@ body {
 
 #Arya-Stark .character-img {
   margin-left: 40px;
+}
+
+#Tormund-Giantsbane {
+  grid-template-areas:
+    "i i t t t s"
+    "i i b b b b"
+    "i i b b b b";
+  background-image: url(../img/patterns/snow-highres.jpg);
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
+}
+
+#Petyr {
+  background-image: url(../img/patterns/silver.webp);
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
+}
+
+#Petyr .character-img {
+  margin-left: 20px;
+}
+
+#Petyr .character-name {
+  font-size: 45px;
+}
+
+#Petyr .character-info {
+  margin-top: 0px;
 }

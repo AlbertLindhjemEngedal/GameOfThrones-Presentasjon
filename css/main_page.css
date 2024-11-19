@@ -16,10 +16,13 @@ div.scroller {
 
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 7px;
+  border-radius: 20px;
 
   padding-left: 10px;
   padding-right: 10px;
+
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .separator {
@@ -106,10 +109,10 @@ div.scroller {
   grid-area: c;
 }
 
-#episodes {
+#seasons {
   grid-area: e;
 }
-#episodes .blur_container {
+#seasons .blur_container {
   /* background-image: url(../img/menu/episodes.jpg); */
   background-size: cover;
 }
