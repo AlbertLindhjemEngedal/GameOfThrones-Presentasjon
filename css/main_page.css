@@ -58,6 +58,7 @@ div.scroller {
   overflow: hidden;
 
   text-decoration: none;
+  background-color: rgb(0, 0, 0);
 
   border-radius: 15px;
   margin: 20px;
@@ -71,17 +72,19 @@ div.scroller {
   filter: blur(0px);
 }
 .menu_slice:hover .slice_title {
-  color: #b9e8f1;
+  color: #f3e054;
 }
 
 .slice_title {
-  font-size: 45px;
+  font-size: 40px;
   font-family: "Trajan Pro Bold";
+
+  margin-top: 35px;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: rgb(255, 255, 255);
 
   z-index: 2;
   filter: none;
@@ -89,19 +92,25 @@ div.scroller {
   position: relative;
 }
 
+.menu_slice .blur_container img {
+  width: 260px;
+  border: solid white 7px;
+
+  margin-top: 110px;
+  margin-left: 33px;
+  margin-right: 33px;
+  margin-bottom: 33px;
+}
+
 #characters {
   grid-area: c;
-}
-#characters .blur_container {
-  background-image: url(../img/menu/characters_cinematic-cropped.jpg);
-  background-size: cover;
 }
 
 #episodes {
   grid-area: e;
 }
 #episodes .blur_container {
-  background-image: url(../img/menu/episodes.jpg);
+  /* background-image: url(../img/menu/episodes.jpg); */
   background-size: cover;
 }
 
@@ -109,7 +118,7 @@ div.scroller {
   grid-area: l;
 }
 #locations .blur_container {
-  background-image: url(../img/menu/map.jpg);
+  /* background-image: url(../img/menu/map.jpg); */
   background-size: cover;
 }
 
@@ -118,7 +127,7 @@ div.scroller {
 }
 
 #houses .blur_container {
-  background-image: url(../img/menu/houses.jpg);
+  /* background-image: url(../img/menu/houses.jpg); */
   background-size: cover;
 }
 
@@ -126,5 +135,5 @@ div.scroller {
   height: 70vh;
   background-color: black;
   /* background-image: url(../img/wood.jpg); */
-  background-size: cover;
+  background-size: cov;
 }

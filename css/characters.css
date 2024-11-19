@@ -130,15 +130,21 @@ body {
 #Jon-Snow {
   background-image: url(../img/patterns/snow-highres.jpg);
   background-size: cover;
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
 }
 
 #Jon-Snow .character-info {
   margin-top: 0px;
+  font-size: 16px;
 }
 
 #Jamie-Lannister {
   background-image: url(../img/patterns/lannister.jpg);
-  /* background-size: cover; */
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 24px 0px rgba(255, 255, 255, 1);
 }
 
 #Jamie-Lannister {
@@ -168,6 +174,10 @@ body {
     "i i t t t s"
     "i i b b b b"
     "i i b b b b";
+
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(200, 49, 43, 1);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(200, 49, 43, 1);
+  box-shadow: 0px 0px 24px 0px rgba(200, 49, 43, 1);
 }
 
 #Danny .character-sigil {
@@ -195,7 +205,9 @@ body {
 
 #Arya-Stark {
   background-image: url(../img/patterns/pattern.jpg);
-
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(202, 193, 78, 1);
+  -moz-box-shadow: 0px 0px 24px 0px rgba(202, 193, 78, 1);
+  box-shadow: 0px 0px 24px 0px rgba(202, 193, 78, 1);
 }
 #Arya-Stark .character-name {
   color: beige;
