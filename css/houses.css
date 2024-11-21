@@ -1,0 +1,86 @@
+body {
+  background-color: #1a1a1a;
+  background-image: url(../img/patterns/snow-highres.jpg);
+  background-size: cover;
+  color: #f0f0f0;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.houses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.house-card {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas: "s s t t t t t t";
+
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+  width: 70%;
+  height: 30vh;
+
+  padding: 5px;
+  margin-top: 10px;
+
+
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  
+}
+
+.house-card:hover {
+  transform: translateY(-5px);
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+  box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+}
+
+.house-image {
+  grid-area: s;
+  width: 200px;
+  /* height: 200px; */
+
+  /* overflow: hidden; */
+
+  margin-top: 20px;
+  margin: auto;
+}
+
+.house-info {
+  grid-area: t;
+  width: 70%;
+  padding: 20px;
+}
+
+.house-info h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #f3e054; /* Gold accent */
+}
+
+.house-info p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#stark .house-image {
+  width: 200px;
+}
+
+#targaryen .house-image {
+  width: 170px;
+}
+

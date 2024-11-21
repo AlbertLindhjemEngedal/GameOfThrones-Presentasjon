@@ -7,16 +7,100 @@
   font-family: "Trajan Pro Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Trajan Pro Regular"), url("../fonts/TrajanPro-Regular.woff") format("woff");
+  src: local("Trajan Pro Regular"),
+    url("../fonts/TrajanPro-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Trajan Pro Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Trajan Pro Bold"), url("../fonts/TrajanPro-Bold.woff") format("woff");
+  src: local("Trajan Pro Bold"),
+    url("../fonts/TrajanPro-Bold.woff") format("woff");
 }
 
 #got {
   font-family: "Trajan Pro";
+}
+
+.ghost-header {
+  width: 100%;
+  height: 150px;
+  margin: 0px;
+}
+
+.header {
+  width: 100%;
+  height: 135px;
+  margin: 0px;
+  background-color: black;
+  border-bottom: 1px solid #333;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  transform: translateY(0);
+  transition: transform 0.4s ease-in-out;
+  z-index: 5;
+}
+
+.header-pre-title {
+  font-size: 10px;
+  font-family: "GOT Font";
+  color: white;
+
+  margin-left: 30px;
+  margin-bottom: 3px;
+  margin-top: 25px;
+
+  position: absolute;
+  top: 0;
+}
+
+.header-title {
+  font-size: 50px;
+  font-family: "GOT Font";
+  color: white;
+
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+
+  width: 50%;
+}
+
+.current_page {
+  font-size: 10px;
+  font-family: "Trajan Pro Regular";
+  color: #f3e054;
+
+  margin-left: 30px;
+  margin-bottom: 3px;
+  margin-top: 25px;
+
+  position: absolute;
+  top: 0;
+  left: 155px;
+}
+
+.menu_button {
+  background-image: url(../img/buttons/menu.png);
+  background-size: contain;
+
+  position: absolute;
+  right: 0;
+
+  margin-right: 30px;
+
+  height: 75px;
+  width: 75px;
+}
+.menu_button:hover {
+  background-image: url(../img/buttons/menu_hover.png);
 }

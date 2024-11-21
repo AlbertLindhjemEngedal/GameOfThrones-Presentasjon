@@ -81,6 +81,17 @@ div.scroller {
   border-radius: 15px;
   margin: 20px;
 
+  /* -webkit-box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1);
+  box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1); */
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu_slice:hover {
+  
+  transform: translateY(-5px);
+
   -webkit-box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1);
   box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1);
@@ -150,7 +161,7 @@ div.scroller {
 }
 
 #more {
-  height: 70vh;
+  height: 10vh;
   background-color: black;
   /* background-image: url(../img/wood.jpg); */
   background-size: cov;
