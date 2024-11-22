@@ -1,28 +1,20 @@
 body {
   background-color: black;
   margin: 0;
-  scrollbar-color: rgb(255, 5, 46) lightblue;
-  scrollbar-color: hotpink blue;
 }
 
 body::-webkit-scrollbar {
-  width: 12px; /* Bredden på scrollbaren */
+  width: 10px;
 }
 
 body::-webkit-scrollbar-track {
-  background: blue; /* Bakgrunnsfarge på scrollbaren */
+  background-color: black;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: hotpink; /* Fargen på tommelen */
-  border-radius: 10px; /* Runde kanter på tommelen */
-  border: 2px solid blue; /* Kant rundt tommelen */
+  background: #4f4f4f;
+  border-radius: 10px;
 }
-
-/* 
-div.scroller {
-  
-}  */
 
 .fill {
   background-color: black;
@@ -89,7 +81,6 @@ div.scroller {
 }
 
 .menu_slice:hover {
-  
   transform: translateY(-5px);
 
   -webkit-box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1);
