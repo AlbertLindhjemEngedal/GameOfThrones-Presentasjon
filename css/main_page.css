@@ -132,8 +132,8 @@ body {
 #footer {
   height: 260px;
   background-color: #000000;
-  border-radius: 7px;
-  /* background-image: url(../img/background/ash.avif); */
+  border-radius: 10px;
+
   background-size: cover;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -141,11 +141,10 @@ body {
 
   grid-template-areas: "L R";
 
-  /* width: 100%; */
+
   margin: 20px;
   margin-top: 40px;
   padding: 20px;
-  /* border: solid red 1px; */
 }
 
 .left {
