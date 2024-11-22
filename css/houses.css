@@ -42,9 +42,9 @@ body {
 
 .house-card:hover {
   transform: translateY(-5px);
-  -webkit-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
-  box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 8px 8px 26px 12px rgba(152, 205, 225, 1);
+  -moz-box-shadow: 8px 8px 26px 12px rgba(152, 205, 225, 1);
+  box-shadow: 8px 8px 26px 12px rgba(152, 205, 225, 1);
 }
 
 .house-image {

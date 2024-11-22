@@ -65,7 +65,7 @@ div.scroller {
   bottom: 0;
   left: 0;
   right: 0;
-  filter: blur(8px);
+  /* filter: blur(8px); */
   z-index: 0;
   transition: filter 0.3s ease;
   padding: 0;
@@ -81,9 +81,9 @@ div.scroller {
   border-radius: 15px;
   margin: 20px;
 
-  /* -webkit-box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1);
-  box-shadow: 17px 16px 24px 0px rgba(0, 0, 0, 1); */
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+  box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -126,8 +126,8 @@ div.scroller {
   border: solid white 7px;
 
   margin-top: 110px;
-  margin-left: 33px;
-  margin-right: 33px;
+  margin-left: 25px;
+  /* margin-right: 31px; */
   margin-bottom: 33px;
 }
 
