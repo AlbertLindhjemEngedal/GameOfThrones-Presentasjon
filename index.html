@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/main_page.css" />
     <link rel="stylesheet" href="css/main_page_intro.css" />
+    <script defer src="scripts/input-notification.js"></script>
   </head>
   <body>
     <div id="top_header">
       <div id="title_div">
-        <h1 id="main_title">GAME OF THRONES</h1>
         <h3 id="small_text">A presentation of</h3>
+        <h1 id="main_title">GAME OF THRONES</h1>
+        <script src="scripts/scroll.js"></script>
       </div>
-      <script src="scripts/scroll.js"></script>
+
       <img id="throne" src="img/throne.png" alt="" />
     </div>
 
@@ -23,41 +25,45 @@
       <div id="main_menu">
         <a href="html/characters.html" id="characters" class="menu_slice">
           <h3 class="slice_title">Characters</h3>
-          <div class="blur_container">
-            <img
-              src="img/menu/characters-modified-removebg-preview.png"
-              alt=""
-            />
-          </div>
+
+          <img src="img/menu/characters-modified-removebg-preview.png" alt="" />
         </a>
-        <a href="html/Seasons.html" id="seasons" class="menu_slice">
+        <a href="html/seasons.html" id="seasons" class="menu_slice">
           <h3 class="slice_title">Seasons</h3>
-          <div class="blur_container">
-            <div class="blur_container">
-              <img src="img/menu/dragons.png" alt="" />
-            </div>
-          </div>
+
+          <img src="img/menu/dragons.png" alt="" />
         </a>
         <a href="html/locations.html" id="locations" class="menu_slice">
           <h3 class="slice_title">Locations</h3>
-          <div class="blur_container">
-            <div class="blur_container">
-              <img src="img/menu/map.jpg" alt="" />
-            </div>
-          </div>
+
+          <img src="img/menu/map.jpg" alt="" />
         </a>
         <a href="html/houses.html" id="houses" class="menu_slice">
           <h3 class="slice_title">Houses</h3>
-          <div class="blur_container">
-            <div class="blur_container">
-              <img src="img/menu/houses.jpg" alt="" />
-            </div>
-          </div>
+
+          <img src="img/menu/houses.jpg" alt="" />
         </a>
       </div>
+      <div id="footer">
+        <div class="left">
+          <h3 class="footer-title">
+            Please give any feedback on the website here
+          </h3>
+          <form action="">
+            <input id="form" type="text" placeholder="Type here..." />
+          </form>
+        </div>
+        <div class="right"><h3 class="footer-title">Fun facts</h3>
+          <ul>
+            <li>Dragons were inspired by bats! Their wing movements were modeled after real bat flight.</li>
+            <li>Arya's "Needle" was named as a joke—it’s not a needle but a sword!</li>
+            <li>The Iron Throne is "wonky" on purpose, made from swords of conquered enemies.</li>
+            <li>Kit Harington (Jon Snow) didn't know who his ancestor was until a family tree reveal during filming.</li>
+            <li>Dothraki is a full language, with over 3,000 words developed for the show.</li>
+            <li>Direwolves were real! The extinct species was larger than modern wolves but less tameable.</li>
+        </ul>
+        </div>
+      </div>
     </div>
-    <!-- <div class="separator"></div> -->
-
-    <div id="more">....</div>
   </body>
 </html>

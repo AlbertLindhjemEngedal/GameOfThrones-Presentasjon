@@ -1,4 +1,5 @@
 #top_header {
+  display: flex;
   height: 900px;
   margin: 0;
   position: relative;
@@ -6,7 +7,16 @@
 }
 
 #title_div {
-  margin-top: 80px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  height: 200px;
+  width: 70%;
+
+  margin: auto;
+  margin-top: 110px;
+
 }
 
 #main_title {
@@ -15,8 +25,8 @@
   font-size: 90px;
   font-family: "GOT Font";
   color: white;
+  margin-top: 10px;
 
-  position: fixed;
   z-index: -2;
   opacity: 1;
 }
@@ -25,18 +35,20 @@
   font-family: "GOT Font";
 
   color: white;
-  position: fixed;
 
   text-align: center;
+
   width: 100%;
 }
 
 #throne {
   position: fixed;
   bottom: 0;
-  left: 30%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%);
   z-index: -10;
 
   padding: 0px;
-  margin: 0px;
+  margin: auto;
 }
