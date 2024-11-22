@@ -19,6 +19,19 @@
     url("../fonts/TrajanPro-Bold.woff") format("woff");
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #4f4f4f;
+  border-radius: 10px;
+}
+
 #got {
   font-family: "Trajan Pro";
 }
