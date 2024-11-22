@@ -26,18 +26,14 @@ body {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
-
   width: 70%;
   height: 30vh;
 
   padding: 5px;
   margin-top: 10px;
 
-
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-  
 }
 
 .house-card:hover {
@@ -50,9 +46,6 @@ body {
 .house-image {
   grid-area: s;
   width: 200px;
-  /* height: 200px; */
-
-  /* overflow: hidden; */
 
   margin-top: 20px;
   margin: auto;
@@ -67,7 +60,7 @@ body {
 .house-info h2 {
   margin-top: 0;
   font-size: 20px;
-  color: #f3e054; /* Gold accent */
+  color: #f3e054;
 }
 
 .house-info p {
@@ -83,4 +76,3 @@ body {
 #targaryen .house-image {
   width: 170px;
 }
-

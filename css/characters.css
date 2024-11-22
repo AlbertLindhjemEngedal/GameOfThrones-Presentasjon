@@ -1,9 +1,15 @@
 body {
   margin: 0;
-  /* background-image: url(../img/background/dark-smoke.avif);
-  background-size: cover; */
-
   background-color: #1a1a1a;
+}
+*/ body {
+  background-image: url(../img/pattern.jpg);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
 }
 
 :root {
@@ -55,19 +61,8 @@ body {
 
   margin: auto;
 }
-*/ body {
-  background-image: url(../img/pattern.jpg);
-  /* background-image: linear-gradient(to top right, #8b5cf6, #ec4899); */
-  min-height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: monospace;
-}
-.slider {
-  /* border: solid red 1px; */
 
+.slider {
   height: 88vh;
 
   padding: 40px;
@@ -196,7 +191,6 @@ body {
 
 #Tyrion-Lannister .character-img {
   margin-left: 55px;
-  /* margin-right: 50px; */
 }
 
 #Tyrion-Lannister .character-info {
@@ -218,7 +212,6 @@ body {
 }
 #Arya-Stark .character-info {
   color: beige;
-  /* font-size: 50px; */
 }
 
 #Arya-Stark .character-img {

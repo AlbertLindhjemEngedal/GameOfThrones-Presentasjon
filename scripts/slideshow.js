@@ -39,14 +39,14 @@ function loadShow() {
 function updateArrowColors() {
   // If at the first item, make the previous arrow red
   if (active === 0) {
-    prev.style.color = "red";
+    prev.style.color = "black";
   } else {
     prev.style.color = ""; // Reset to default color
   }
 
   // If at the last item, make the next arrow red
   if (active === items.length - 1) {
-    next.style.color = "red";
+    next.style.color = "black";
   } else {
     next.style.color = ""; // Reset to default color
   }

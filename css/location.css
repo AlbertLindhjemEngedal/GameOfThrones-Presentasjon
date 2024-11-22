@@ -1,6 +1,5 @@
 body {
   background-color: #1a1a1a;
-  /* background-image: url(../img/background/dark-smoke.avif); */
   background-size: cover;
 }
 
@@ -15,15 +14,6 @@ body {
 .header {
   position: static;
 }
-
-/* h1 {
-  font-family: "GOT Font";
-  color: white;
-  font-size: 40px;
-
-
-  width: 500px;
-} */
 
 #map {
   width: 98%;

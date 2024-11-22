@@ -32,10 +32,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
-#got {
-  font-family: "Trajan Pro";
-}
-
 .ghost-header {
   width: 100%;
   height: 150px;
